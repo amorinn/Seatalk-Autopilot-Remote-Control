@@ -20,16 +20,28 @@ This remote control is **meant to work** with the entire family of Raymarine and
 > **Not for SeaTalkNG / NMEA2000:** This device is not natively compatible with modern Raymarine Evolution (EV-100, 200, etc.) pilots unless your boat's network includes a SeaTalk 1 to SeaTalkNG converter.
 
 
-![Autopilot Remote](https://github.com/AK-Homberger/Seatalk-Autopilot-Remote-Control/blob/master/IMG_0857.JPG)
-
-![Autopilot Schematic](https://github.com/AK-Homberger/Seatalk-Autopilot-Remote-Control/blob/master/Remote%20Pilot%20Schematics.png)
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/aabcd19a-d1d6-4f8d-8ae6-18f05df91c54" width="500" alt="PCB montada en caja horizontal" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b1523065-9105-476e-bec9-e7b1354621f0" width="280" alt="Vista vertical de la caja" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github.com/AK-Homberger/Seatalk-Autopilot-Remote-Control/blob/master/Remote%20Pilot%20Schematics.png" width="800" alt="Esquema del circuito" />
+    </td>
+  </tr>
+</table>
 
 
 
 # Hardware
 ## PCB
 
-The pcb is available at [Aisler](https://aisler.net/p/LCDCUVMF). 
+The pcb is available at [Aisler](https://aisler.net/p/LCDCUVMF) (credit to AK-Homberger).
 
 Minimum number is three pieces for about 24 EUR. So it makes sense to buy once and share with others interested in the remote control.
 The circuit diagram and the PCB layout are shown in the hardware section of this repository.
@@ -77,9 +89,11 @@ Most **433 MHz RF remotes** are compatible with this system. While the variety o
 | **R5** | [Resistor 10 KOhm, 1/4 watt](https://www.reichelt.com/de/en/carbon-film-resistor-1-4w-5-10-kilo-ohms-1-4w-10k-p1338.html?&nbc=1) |
 | **PCB**| [AK-Homeberger's PCB](https://aisler.net/p/LCDCUVMF) with OLED display optional |
 | **REMOTE** | [Ruged 6 buttons](https://es.aliexpress.com/item/1005009013294964.html?spm=a2g0o.detail.similar_items.1.5bdeN0qoN0qo2m&utparam-url=scene%3Aimage_search%7Cquery_from%3Adetail_bigimg%7Cx_object_id%3A1005009013294964%7C_p_origin_prod%3A&algo_pvid=fdcfd253-bcb1-4387-8f99-b40e3dd30076&algo_exp_id=fdcfd253-bcb1-4387-8f99-b40e3dd30076&pdp_ext_f=%7B%22order%22%3A%22136%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%217.04%212.04%21%21%218.14%212.36%21%40211b804117714186864287306ecd19%2112000047580332644%21sea%21ES%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Ad1c112d5%3Bm03_new_user%3A-29895%3BpisId%3A5000000197846863) or [4 butons waterproof](https://es.aliexpress.com/item/1005010156871771.html?spm=a2g0o.productlist.main.5.7a3c4IOl4IOlCP&algo_pvid=b34e57af-ccd6-41d6-bc73-9232bf2d0279&algo_exp_id=b34e57af-ccd6-41d6-bc73-9232bf2d0279-4&pdp_ext_f=%7B%22order%22%3A%22150%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%215.72%210.99%21%21%2145.54%217.89%21%40211b613917714225694304450e2589%2112000051351934102%21sea%21ES%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Ad1c112d5%3Bm03_new_user%3A-29895%3BpisId%3A5000000197846864&curPageLogUid=xsjyORh92BUG&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005010156871771%7C_p_origin_prod%3A)|
+| **PRICE** | ~15€ components + 25€ 3 pack PCB + ~3€ Remote = ~45€ |
 
-> [!NOTE]
-> You can find all of this much cheaper on aliexpres, but links are always changing.
+> [!TIP]
+> You can find all of this much cheaper on **Aliexpress**, but links are always changing.
+> And for cheaper price, instead of using a custom pcb, use a prefboard if you are good with soldering.
 
 ### Optional Add-ons
 
