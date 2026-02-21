@@ -152,6 +152,12 @@ The software is using several additional Arduino libraries (RCSwitch, Adafruit_G
 - https://github.com/sui77/rc-switch
 - https://github.com/adafruit/Adafruit-GFX-Library
 - https://github.com/adafruit/Adafruit_SSD1306
+# USAGE
+## Programing the 433Mhz remote.
+Start uploading the `433_Programing.ino` into the arduino pro micro. Once uploaded you shoud start the serial monitor in the pro micro port and star pressing one by one each of the buttons on your remote. And anotating the keys id's.
+Then you have to open the `AP_main.ino` and complete the key ids. 
+
+
 
 # Programming the 433 MHz KeyFob
 
