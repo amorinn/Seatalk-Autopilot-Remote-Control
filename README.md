@@ -111,6 +111,14 @@ Depending on your build method, you can add these optional components to enhance
   > *Links:* [Option 1](https://www.makershop.de/en/module/funk/superheterodyne-433-mhz-sender/) | [Option 2](https://www.makershop.de/en/module/funk/433-sender-empfaenger/)
 
 
+## Resin coating for marine protection. (recomendation)
+If you are planing to install and forget, from experience i recommend to seal coat the pcb with epoxi or any dielectric kind of silicone.
+
+<img width="700" height="456" alt="image" src="https://github.com/user-attachments/assets/47812d7d-f0f9-4a01-a70c-6cba8433522a" />
+
+>[!CAUTION]
+>**Do not cover the L7805**. So it can disipate heat. 
+
 ## 3D Printable Case
 Added a 3D printable `.STL` case designed for marine environments. Features a silicone-sealable cover, cable exit, and wall mount hole. I recommend also sealing the cable exit. 
 
